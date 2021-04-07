@@ -1,0 +1,3 @@
+<div *ngFor="let testCaseHistory of testCaseHistories | keyvalue">
+    <app-testcase [testcase]="testCaseHistory.value[0]"></app-testcase>
+</div>
